@@ -1,13 +1,28 @@
 # Background Generator
-
 https://heropatterns.com/
 
 # Google Fonts
 https://fonts.google.com/
 
+# Twitter
+https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent
+
+# Facebook
+https://developers.facebook.com/
+
+# Open Graph Meta Tags
+https://ahrefs.com/blog/open-graph-meta-tags/
+
 # git 
-
-
+https://github.com/new
+Create Repository
+Remove .git folder from folder structure if present 
+terminal:
+git init
+git add origin "git@github.com:kyledominick/quote-generator-api.git" HTTPS or SSH
+git add .
+git commit -m 'commit'
+git push origin main 
 
 # Update to API
 The next video will use an API that may no longer work depending on when you are watching the video, specifically: https://type.fit/api/quotes

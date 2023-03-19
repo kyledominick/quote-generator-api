@@ -65,7 +65,10 @@ function tweetQuote(){
 
 // Facebook Share
 function facebookShare(){
-    const facebookUrl = `https://www.facebook.com/dialog/share?text=${quoteText.textContent} - ${authorText.textContent}&app_id=161819940122517&href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F&redirect_uri=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fexplorer`;
+    const facebookUrl =`https://www.facebook.com/sharer/sharer.php?app_id=161819940122517&sdk=joey&u=https://kyledominick.github.io/quote-generator-api/&display=popup&ref=plugin&src=share_button`
+
+
+    // const facebookUrl = `https://www.facebook.com/dialog/share?text=${quoteText.textContent} - ${authorText.textContent}&app_id=161819940122517&href=https://kyledominick.github.io/quote-generator-api/&redirect_uri=https://kyledominick.github.io/quote-generator-api/`;
     window.open(facebookUrl, '_blank');
 }
 
