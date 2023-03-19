@@ -70,12 +70,14 @@ body {
     margin-top:15px;
     display:flex;
     flex-direction:row;
+    column-gap:10px;
     justify-content:space-between;
 }
 
 .social-container{
     display:flex;
     flex-direction:row;
+    column-gap:10px;
     row-gap:10px;
 }
 
@@ -90,6 +92,9 @@ button{
     outline:none;
     padding: 0.5rem 1.8rem;
     box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+    display: flex;
+    flex-direction: row;
+    column-gap:10px;
 }
 
 button:hover{
