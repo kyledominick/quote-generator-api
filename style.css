@@ -70,7 +70,12 @@ body {
     margin-top:15px;
     display:flex;
     justify-content:space-between;
+}
 
+.social-container{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
 }
 
 button{
