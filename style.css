@@ -70,15 +70,13 @@ body {
     margin-top:15px;
     display:flex;
     flex-direction:row;
-    column-gap:10px;
     justify-content:space-between;
 }
 
 .social-container{
     display:flex;
     flex-direction:row;
-    column-gap:10px;
-    row-gap:10px;
+    column-gap:30px;
 }
 
 button{
